@@ -1,0 +1,22 @@
+.sobremi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.sobremi__titulo{
+    margin: 1em;
+    font-size: 1.3em;
+    font-weight: 800;
+    color: var(--verde-texto-activo);
+    font-family: var(--raleway);
+    text-align: center;
+    align-items: center;
+}
+.sobremi__parrafo{
+    font-size: 1.3em;
+    text-align: center;
+    margin: .5em;
+    font-family: var(--raleway);
+    color: var(--verde-letras);
+}

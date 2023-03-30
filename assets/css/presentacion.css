@@ -2,6 +2,7 @@
 .section_presentacion{
     display: flex;
     background-color: var(--verde-letras);
+    padding: 5em;
 }
 .presentacion{
     width: 70%;

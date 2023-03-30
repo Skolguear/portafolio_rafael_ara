@@ -1,0 +1,35 @@
+/*Presentacion*/
+.section_presentacion{
+    display: flex;
+    background-color: var(--verde-letras);
+}
+.presentacion{
+    width: 70%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+}
+.presentacion__nombre{
+    font-family: var(--raleway);
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 1.5rem;
+    
+}
+.presentacion__info{
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-size: 22px;
+    margin: auto;
+    padding: 1.5rem 3rem;
+}
+.foto{
+    width: 30%;
+}
+.presentacion__foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin-top: 1.5rem;
+}

@@ -1,0 +1,34 @@
+:root{
+    --verde-letras: #7cb063;
+    --verde-texto-activo: #1F8A70;
+    --blanco-header: #f9f9f9;
+    --raleway: 'Raleway', sans-serif;
+}
+
+
+.encabezado{
+    align-items: center;
+    background: var(--blanco-header);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.menu__lista{
+    display: flex;
+}
+.menu__items{
+    list-style: none;
+}
+.menu__link{
+    color: var(--verde-letras);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-family: var(--raleway);
+}
+.menu__link:hover{
+    text-decoration: underline;
+}
+.menu__link.activo{
+    color: var(--verde-texto-activo);
+}

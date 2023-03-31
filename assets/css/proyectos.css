@@ -1,0 +1,57 @@
+.proyectos{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.titulo__proyectos{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: var(--raleway);
+    font-weight: 800;
+    color: var(--verde-texto-activo);
+    margin: 30px;
+}
+.caja__proyectos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta__proyecto{
+    margin: 30px;
+    padding: 30px;
+}
+.img__proyecto{
+    width: 650px;
+    height: 400px;
+}
+.titulo__proyecto{
+    font-family: var(--raleway);
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--verde-letras);
+    margin: 20px;
+}
+button{
+    font-family: var(--raleway);
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: var(--verde-letras);
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button:hover {
+    box-shadow: 7px 5px 56px -14px var(--verde-texto-activo);
+}
+
+button:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px var(--verde-texto-activo);
+}

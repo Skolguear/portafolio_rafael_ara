@@ -5,6 +5,9 @@
     --raleway: 'Raleway', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 .encabezado{
     align-items: center;

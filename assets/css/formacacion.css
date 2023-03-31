@@ -1,10 +1,10 @@
-.section__skills{
+.section__escuela{
     width: 100%;
     display: inline-block;
     align-items: center;
     justify-content: center;
 }
-.titulo_skills{
+.titulo__formacion-escolar{
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -12,7 +12,7 @@
     font-weight: 800;
     color: var(--verde-texto-activo);
 }
-.iconos__skills{
+.caja__escuelas{
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -20,27 +20,29 @@
     text-align: center;
     align-items: center;
 }
-.lista__skills{
-    align-items: center;
-    justify-content: center;
+.tarjetas__escuela{
     padding: 1em;
-    margin: 1em;
+    margin: 30px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
     backdrop-filter: blur(6px);
     transition: all 0.5s;
 }
-.lista__skills:hover{
+.tarjetas__escuela:hover{
     border: 1px solid var(--verde-texto-activo);
     transform: scale(1.05);
     cursor: pointer;
 }
-
-.imagen__iconos{
-    height: 100px;
-    width: 100px;
+.img__escuelas{
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-origin: border-box;
+    margin: 10px;
+    padding: 15px;
 }
-.titulo__skills{
+.name__escuelas{
     font-family: var(--raleway);
+    color: var(--verde-letras);
 }

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/assets/css/hobbies.css">
     <link rel="stylesheet" href="/assets/css/formacacion.css">
     <link rel="stylesheet" href="/assets/css/proyectos.css">
+    <link rel="stylesheet" href="/assets/css/formulario.css">
 </head>
 <body>
     <header class="encabezado">
@@ -132,6 +133,25 @@
                 <button class="btn__ver-pagina">Ver pagina</button>
             </div>
         </div> 
+    </section>
+    <section class="contenedor">
+        <form action="" class="formulario">
+            <h3 class="titulo__contacto">Contactame!</h3>
+            <p class="texto__contacto">Llena el formulario con los datos correspondiente,
+                y llena en la caja de texto, explica tu idea y nos pondremos en contacto.
+            </p>
+
+            <label for="Nombre" class="nombre">Escribe tu nombre</label>
+            <input type="text" id="nombre" class="box">
+            <label for="Email" class="email">Escribe tu correo</label>
+            <input type="email" name="email" id="email" class="box">
+            <label for="Mensaje" class="mensaje">Escribe el mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input type="submit" value="enviar" class="submit">
+        </form>
+        <div class="info">
+            <img src="/assets/img/Reading list-bro.svg" alt="" class="img__info">
+        </div>
     </section>
 </body>
 </html>

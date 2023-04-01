@@ -23,8 +23,12 @@
     padding: 30px;
 }
 .img__proyecto{
-    width: 650px;
-    height: 400px;
+    width: 550px;
+    height: 350px;
+    border-radius: 20px;
+}
+.img__proyecto:hover{
+    transform: scale(1.2);
 }
 .titulo__proyecto{
     font-family: var(--raleway);

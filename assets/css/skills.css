@@ -43,3 +43,10 @@
 .titulo__skills{
     font-family: var(--raleway);
 }
+
+@media screen and (max-width: 667px){
+    .iconos__skills{
+        display: flex;
+        flex-direction: column;
+    }
+}

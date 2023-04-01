@@ -32,20 +32,51 @@
     height: 550px;
     width: 550px;
 }
-label{
-    font-size: 15px;
-    margin-bottom: .5em;
-}
-.nombre,.email,.mensaje{
-    font-weight: 800;
-    margin-left: 20px;
-}
-input{
+
+.box{
     margin: 1rem;
+    border: none;
+    border-bottom: 1px solid green;
 }
 #mensaje{
     justify-content: center;
     align-items: center;
     margin-left: 15px;
     margin-right: 15px;
+    border: none;
+    border-bottom: 1px solid green;
 }
+.submit{
+    margin: 1.5rem;
+    color: white;
+    background-color: var(--verde-letras);
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+@media screen and (max-width: 667px){
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .formulario{
+        width: 90%;
+    }
+    .submit{
+        margin: 20px;
+        margin-left: 50px;
+    }
+    .img__info{
+        height: 280px;
+        width: 380px;
+    }
+    .info {
+        height: 300px;
+        width: 550px;
+    }
+}    

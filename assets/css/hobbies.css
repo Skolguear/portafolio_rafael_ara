@@ -43,3 +43,9 @@
     font-family: var(--raleway);
     color: var(--verde-letras);
 }
+@media screen and (max-width: 667px){
+    .iconos__hobbies{
+        display: flex;
+        flex-direction: column;
+    }
+}

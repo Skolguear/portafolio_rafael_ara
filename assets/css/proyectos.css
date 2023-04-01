@@ -59,3 +59,18 @@ button:active {
     transform: scale(0.97);
     box-shadow: 7px 5px 56px -10px var(--verde-texto-activo);
 }
+
+@media screen and (max-width: 667px){
+    .caja__proyectos{
+        display: flex;
+        flex-direction: column;
+    }
+    .img__proyecto{
+        height: 210px;
+        width: 320px;
+        margin: 5px;
+    }
+    .tarjeta__proyectos{
+        margin-bottom: 2rem;
+    }
+}

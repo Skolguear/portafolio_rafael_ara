@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/assets/css/formacacion.css">
     <link rel="stylesheet" href="/assets/css/proyectos.css">
     <link rel="stylesheet" href="/assets/css/formulario.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
 </head>
 <body>
     <header class="encabezado">
@@ -121,6 +122,7 @@
                 </li>
             </ul>
     </section>
+    <!--Proyectos-->
     <section class="proyectos">
         <h3 class="titulo__proyectos">Proyectos</h3>
         <div class="caja__proyectos">
@@ -134,24 +136,32 @@
             </div>
         </div> 
     </section>
+    <!--Formulario-->
     <section class="contenedor">
         <form action="" class="formulario">
             <h3 class="titulo__contacto">Contactame!</h3>
             <p class="texto__contacto">Llena el formulario con los datos correspondiente,
                 y llena en la caja de texto, explica tu idea y nos pondremos en contacto.
             </p>
-
-            <label for="Nombre" class="nombre">Escribe tu nombre</label>
-            <input type="text" id="nombre" class="box">
-            <label for="Email" class="email">Escribe tu correo</label>
-            <input type="email" name="email" id="email" class="box">
-            <label for="Mensaje" class="mensaje">Escribe el mensaje</label>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <input type="text" id="nombre" class="box" placeholder="Nombre completo*">
+            <input type="email" name="email" id="email" class="box" placeholder="Correo electronico*">
+            <textarea name="mensaje" class="box" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
             <input type="submit" value="enviar" class="submit">
         </form>
         <div class="info">
             <img src="/assets/img/Reading list-bro.svg" alt="" class="img__info">
         </div>
     </section>
+    <!--Pie de pagina-->
+    <footer class="rodapie">
+        <div class="contenedor__redes">
+            <h4 class="autor">Realizado por Rafael Ara 😎</h4>
+            <ul class="list__redes">
+                <li><a href="https://twitter.com/RafaelAra_C"><i class="fa-brands fa-twitter redes" style="color: #0a7e01;"></i></a></li>
+                <li><a href="https://github.com/Skolguear"><i class="fa-brands fa-github redes" style="color: #0a7e01;"></i></a></li>
+                <li><a href="https://www.instagram.com/rafa_ara/"><i class="fa-brands fa-instagram redes" style="color: #0a7e01;"></i></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

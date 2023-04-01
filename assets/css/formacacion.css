@@ -46,3 +46,9 @@
     font-family: var(--raleway);
     color: var(--verde-letras);
 }
+@media screen and (max-width: 667px){
+    .caja__escuelas{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -37,7 +37,7 @@
     color: var(--verde-letras);
     margin: 20px;
 }
-button{
+.btn__repositorio, .btn__ver-pagina{
     font-family: var(--raleway);
     padding-left: 33px;
     padding-right: 33px;
